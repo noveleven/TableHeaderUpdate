@@ -13,6 +13,8 @@
 		A49F0FF71D4CB5BE003EA76E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49F0FF51D4CB5BE003EA76E /* Main.storyboard */; };
 		A49F0FF91D4CB5BE003EA76E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49F0FF81D4CB5BE003EA76E /* Assets.xcassets */; };
 		A49F0FFC1D4CB5BE003EA76E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49F0FFA1D4CB5BE003EA76E /* LaunchScreen.storyboard */; };
+		A49F10061D4CB904003EA76E /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = A49F10031D4CB904003EA76E /* CustomView.m */; };
+		A49F10071D4CB904003EA76E /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49F10051D4CB904003EA76E /* Header.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		A49F0FF81D4CB5BE003EA76E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A49F0FFB1D4CB5BE003EA76E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A49F0FFD1D4CB5BE003EA76E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A49F10031D4CB904003EA76E /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		A49F10041D4CB904003EA76E /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		A49F10051D4CB904003EA76E /* Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 		A49F0FEB1D4CB5BE003EA76E /* TableHeaderUpdate */ = {
 			isa = PBXGroup;
 			children = (
+				A49F10051D4CB904003EA76E /* Header.xib */,
+				A49F10041D4CB904003EA76E /* CustomView.h */,
+				A49F10031D4CB904003EA76E /* CustomView.m */,
 				A49F0FEF1D4CB5BE003EA76E /* AppDelegate.h */,
 				A49F0FF01D4CB5BE003EA76E /* AppDelegate.m */,
 				A49F0FF21D4CB5BE003EA76E /* ViewController.h */,
@@ -137,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49F10071D4CB904003EA76E /* Header.xib in Resources */,
 				A49F0FFC1D4CB5BE003EA76E /* LaunchScreen.storyboard in Resources */,
 				A49F0FF91D4CB5BE003EA76E /* Assets.xcassets in Resources */,
 				A49F0FF71D4CB5BE003EA76E /* Main.storyboard in Resources */,
@@ -151,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A49F0FF41D4CB5BE003EA76E /* ViewController.m in Sources */,
+				A49F10061D4CB904003EA76E /* CustomView.m in Sources */,
 				A49F0FF11D4CB5BE003EA76E /* AppDelegate.m in Sources */,
 				A49F0FEE1D4CB5BE003EA76E /* main.m in Sources */,
 			);
